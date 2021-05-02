@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 
+
 import Header from './components/Header'
+import About from './components/About'
+import Footer from './components/Footer'
 import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 
@@ -109,9 +112,13 @@ const App = () => {
       
       {tasks.length > 0 ? (<Tasks  tasks = {tasks} onDelete={deleteTask}  onToggle = {toggleReminder}/>) : ('Nothing to show')
       }
+      <Footer />
     </div>
   )
 }
 
 
 export default App;
+
+
+// after disconnecting, to connect type npm run server in terminal to connect it to database

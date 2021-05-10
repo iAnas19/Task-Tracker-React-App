@@ -4,7 +4,6 @@ import Button from './Button'
 
 const Header = ({ title, onAdd, showAdd }) => {
     const location = useLocation()
-
     
     return (
         <header className='header'>
@@ -27,9 +26,6 @@ Header.defaultProps = {
 Header.propTypes = {
   title: PropTypes.string.isRequired,
 }
-
-
-
 
 
 export default Header

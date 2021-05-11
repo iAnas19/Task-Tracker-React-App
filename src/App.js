@@ -124,7 +124,7 @@ const App = () => {
           </>
 
         )} />
-        <Route path='/about' component={About} />
+        <Route path='/about' component={About} style={{transition:'0.3s'}}/>
         <Footer />
       </div>
     </Router>

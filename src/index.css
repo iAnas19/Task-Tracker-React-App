@@ -8,15 +8,18 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #f4f4f4;
 }
 
 .container {
+  background: #fcfcfc;
   max-width: 400px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
-  border: 1px solid darkgreen;
+  /* border: 1px solid steelblue; */
+  /* border: 1px solid darkgreen; */
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
   padding: 30px;
   border-radius: 5px;
 }
@@ -122,4 +125,34 @@ footer {
   text-align: center;
   margin: 50px;
   text-decoration: none;
+}
+
+.goback {
+  color: darkgreen;
+  transition: 0.3s ease-in;
+}
+
+.goback:hover {
+  font-weight: 400;
+  color: aliceblue;
+  background: darkgreen;
+  font-weight: 500;
+}
+
+.footerbtn {
+  text-decoration: none;
+  border: 1px;
+  padding: 2.5px 10px;
+  color: darkgreen;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.footerbtn:hover {
+  color: #f4f4f4;
+  background: #0c0c0c;
+}
+
+.deletebtn {
+  margin-top: 10px;
+  transform: scale(1.1);
 }

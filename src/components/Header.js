@@ -6,12 +6,13 @@ const Header = ({ title, onAdd, showAdd }) => {
     const location = useLocation()
     
     return (
-        <header className='header'>
-            <h1>{title}</h1>
+        <header className='header' >
+            <h1 className='heading'>{title}</h1>
             {location.pathname === '/' && (
                 <Button className="btnbtn"
-                color={showAdd ? 'red' : 'green'}
+                color={showAdd ? '#db351f' : 'green'}
                 text={showAdd ? 'Close' : 'Add'}
+                onMouseEnter
                 onClick={onAdd}
                 />
       )}

@@ -106,7 +106,7 @@ const App = () => {
     <Router>
       <div 
       className='container'>
-        <Header 
+        <Header
         onAdd={() => setShowAddTask(!showAddTask)} 
         showAdd = {showAddTask} 
         />
@@ -124,7 +124,7 @@ const App = () => {
           </>
 
         )} />
-        <Route path='/about' component={About} style={{transition:'0.3s'}}/>
+        <Route path='/about' component={About} />
         <Footer />
       </div>
     </Router>

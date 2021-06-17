@@ -15,13 +15,13 @@
     {
       "text": "Buy Grocery",
       "day": "3rd May at 4:00pm",
-      "reminder": true,
+      "reminder": false,
       "id": 4
     },
     {
       "text": "practise React",
       "day": "12th May at 2:30am",
-      "reminder": false,
+      "reminder": true,
       "id": 5
     }
   ]
